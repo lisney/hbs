@@ -1,0 +1,12 @@
+<h1>안녕하세요 핸들바스</h1>
+<p>홈{{#if home}}안녕하세요{{/if}} </p>
+<p>컨텍트{{contact}}</p>
+<p style="background:{{#if features}}yellow{{else}}red{{/if}}">특징</p>
+<a href="/features">특징</a>
+<a href="/contact">문의</a>
+
+<img style="width:20vmin" src="yui.jpg" alt="">
+
+{{#each list}}
+<li>{{this}} </li>
+{{/each}}
